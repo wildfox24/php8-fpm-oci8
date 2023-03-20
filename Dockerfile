@@ -1,11 +1,11 @@
 # Для начала указываем исходный образ, он будет использован как основа
-FROM php:8-fpm-bullseye
+FROM php:8.2.4-fpm-bullseye
 
-LABEL version="1.0.1" \
+LABEL version="1.1" \
 author="WildFox24.ru" \
 e-mail="klek07@ya.ru" \
 created="20.12.2022" \
-updateed="20.12.2022"
+updateed="17.03.2023"
 
 # RUN выполняет идущую за ней команду в контексте нашего образа.
 # В данном случае мы установим некоторые зависимости и модули PHP.
