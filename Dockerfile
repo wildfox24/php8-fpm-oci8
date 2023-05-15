@@ -1,5 +1,5 @@
 # Для начала указываем исходный образ, он будет использован как основа
-FROM php:8.2.4-fpm-bullseye
+FROM php:8.2.6-fpm-bullseye
 
 LABEL version="1.1" \
 author="WildFox24.ru" \
